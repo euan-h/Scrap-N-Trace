@@ -314,7 +314,7 @@ a:hover{
     color:#111;
     border:0
 }
-.first-nav__navcontrol{ /*Menu text?*/
+.first-nav__navcontrol{ /* not menu text */
     display:none;
     float:left;
     width:23%;
@@ -328,7 +328,7 @@ a:hover{
     margin-bottom:0;
     color:#fff;
     line-height:40px;
-    text-align:left;
+    text-align:right;
     border:0;
     -webkit-transition:color .5s;
     -o-transition:color .5s;
@@ -451,7 +451,7 @@ a:hover{
     height:auto;
     margin-top:0;
     margin-bottom:0;
-    text-align:right;
+    text-align:left;
     padding-left:100px
 }
 .menu ul{
