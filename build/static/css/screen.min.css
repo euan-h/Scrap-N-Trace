@@ -438,6 +438,23 @@ a:hover{
     -ms-transform:rotate(37deg);
     transform:rotate(37deg)
 }
+.second-nav.js-nav.is-closed a.second-nav__logo {
+    transform: translateY(100%) !important;
+    -webkit-transform: translateY(100%) !important;
+    -ms-transform: translateY(100%) !important;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+  }
+  
+  a.second-nav__logo {
+      transform: translateY(0) !important;
+      -webkit-transform: translateY(0) !important;
+      -ms-transform: translateY(0) !important;
+      transition: all .5s;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+  }
 .menu{
     float:left;
     width:98%;
